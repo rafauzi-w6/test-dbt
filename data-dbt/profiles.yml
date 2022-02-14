@@ -1,0 +1,23 @@
+fauzi_dbt:  # this needs to match the profile: in your dbt_project.yml file
+  target: local-public
+  outputs:
+    local-public:
+      type: postgres
+      host: localhost
+      user: postgres
+      pass: postgres
+      port: 5432
+      dbname: postgres
+      schema: analytics_public
+      threads: 1
+      keepalives_idle: 0
+    local-duplicate:
+      type: postgres
+      host: localhost
+      user: postgres
+      pass: postgres
+      port: 5432
+      dbname: postgres
+      schema: analiytics_duplicate
+      threads: 1
+      keepalives_idle: 0

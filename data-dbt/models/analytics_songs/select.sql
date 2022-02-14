@@ -1,0 +1,1 @@
+select titles, artist from most_listened_songs mls;

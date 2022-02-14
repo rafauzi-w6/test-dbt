@@ -1,0 +1,15 @@
+# version: 2
+
+# sources:
+#   - name: public
+#     description: 'A source for get data from public schema'
+#     database: postgres
+#     schema: public
+#     tables:
+#       - name: most_listened_songs
+#   - name: duplicate
+#     description: 'A source for get data from duplicate schema'
+#     database: postgres
+#     schema: duplicate
+#     tables:
+#       - name: most_listened_songs
